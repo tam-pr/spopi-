@@ -19,20 +19,20 @@ export function WrappedExperience({ data, personality }: Props) {
   const slides = [
     <WrappedSlideFrame
       key="intro"
-      title="Your Spopi Wrapped"
-      subtitle="a tiny time capsule of your soundtrack"
+      title="Tu wrapped (  •̀⤙•́  )"
+      subtitle="una pequeña capsula del tiempo de tu viaje sonoro"
       accentClass="bg-gradient-to-br from-cyan-300 via-fuchsia-300 to-yellow-300"
     >
       <div className="space-y-4 text-center text-black">
-        <p className="text-base md:text-lg">This year, your ears went on a journey.</p>
+        <p className="text-base md:text-lg">Este año viajaste por muchas rutas sonoras.</p>
         <p className="text-5xl font-black leading-none md:text-7xl">{story.totalMinutes.toLocaleString()}</p>
-        <p className="text-sm uppercase tracking-widest md:text-base">minutes listened</p>
+        <p className="text-sm uppercase tracking-widest md:text-base">minutos escuchados</p>
       </div>
     </WrappedSlideFrame>,
     <WrappedSlideFrame
-      key="artist"
-      title="Top Artist"
-      subtitle="the one you came back to the most"
+      key="Artista "
+      title="Artista Top"
+      subtitle="de quien nunca te cansaste ( ◡̀_◡́)ᕤ"
       accentClass="bg-gradient-to-br from-pink-300 via-rose-200 to-orange-200"
     >
       <div className="space-y-3 text-center text-black">
@@ -43,8 +43,8 @@ export function WrappedExperience({ data, personality }: Props) {
     </WrappedSlideFrame>,
     <WrappedSlideFrame
       key="song"
-      title="Top Song"
-      subtitle="your repeat-button champion"
+      title="Canción top"
+      subtitle="la que nunca falto"
       accentClass="bg-gradient-to-br from-violet-300 via-indigo-300 to-cyan-200"
     >
       <div className="space-y-3 text-center text-black">
@@ -55,8 +55,8 @@ export function WrappedExperience({ data, personality }: Props) {
     </WrappedSlideFrame>,
     <WrappedSlideFrame
       key="minutes"
-      title="Listening Minutes"
-      subtitle="your year in pure playtime"
+      title="Minutos de escucha"
+      subtitle="el playtime del soundtrack de tu año"
       accentClass="bg-gradient-to-br from-lime-300 via-emerald-200 to-cyan-200"
     >
       <div className="space-y-2 text-center text-black">

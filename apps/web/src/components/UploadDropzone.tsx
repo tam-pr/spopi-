@@ -111,14 +111,13 @@ export function UploadDropzone({ onResultsReady }: UploadDropzoneProps) {
         <div className="flex flex-col gap-4">
           <div>
             <p className="text-sm uppercase tracking-widest text-cyan-200">
-              Upload your Spotify export
+              Sube el .zip que te mando spotify
             </p>
             <h2 className="mt-2 text-2xl font-extrabold text-pink-200">
-              Drop the ZIP here
+              Arroja el archivo aqui ⤵︎
             </h2>
             <p className="mt-2 text-sm text-white/80">
-              We don’t use Spotify login. Your ZIP is parsed locally by the server and not saved to the
-              database (yet).
+
             </p>
           </div>
 
@@ -128,10 +127,10 @@ export function UploadDropzone({ onResultsReady }: UploadDropzoneProps) {
               onClick={() => inputRef.current?.click()}
               className="rounded-lg border-2 border-cyan-300 bg-cyan-300/10 px-4 py-2 font-bold text-cyan-100 hover:bg-cyan-300/20"
             >
-              Choose ZIP
+              Escoge un archivo ⸜(｡˃ ᵕ ˂ )⸝
             </button>
             <p className="self-center text-xs text-white/70">
-              Tip: Spotify export is usually named something like{" "}
+              Tip: Tu archivo se va a llamar algo como {" "}
               <span className="text-white/90">my_spotify_data.zip</span>
             </p>
           </div>
@@ -183,7 +182,7 @@ export function UploadDropzone({ onResultsReady }: UploadDropzoneProps) {
       </div>
 
       <p className="mt-3 text-xs text-white/60">
-        File size tip: if your export is huge, try again after removing non-music folders from the ZIP.
+
       </p>
     </div>
   );

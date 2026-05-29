@@ -18,14 +18,14 @@ export default function Home() {
       <div className="mx-auto flex max-w-5xl flex-col gap-8 py-10">
         <header className="flex flex-col gap-3">
           <div className="inline-flex w-fit items-center gap-3 rounded-full border-2 border-white/15 bg-black/30 px-4 py-2">
-            <span className="text-xs font-bold tracking-[0.35em] text-cyan-200">SPOPI</span>
-            <span className="text-xs text-white/60">retro wrapped lab</span>
+            <span className="text-xs font-bold tracking-[0.35em] text-cyan-200"> ★</span>
+            <span className="text-xs text-white/60">idm :D</span>
           </div>
           <h1 className="text-4xl font-black tracking-tight text-pink-100 sm:text-5xl">
-            Your Spotify Wrapped, no login.
+            Sube tu .zip ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧
           </h1>
           <p className="max-w-2xl text-sm text-white/75">
-            Drop your Spotify data export ZIP to parse your streaming history and compute core analytics.
+            Sube tu archivo .zip para conocer más de tus hábitos de escucha.
           </p>
         </header>
 
@@ -51,7 +51,7 @@ export default function Home() {
                     : "border-white/30 bg-black/20 text-white/80"
                 }`}
               >
-                Dashboard
+                Dashboard ◝(ᵔᗜᵔ)◜
               </button>
               <button
                 type="button"
@@ -62,7 +62,7 @@ export default function Home() {
                     : "border-white/30 bg-black/20 text-white/80"
                 }`}
               >
-                Wrapped Story
+                Wrapped Story ݁♬⋆.𝄞
               </button>
               <button
                 type="button"
@@ -73,7 +73,7 @@ export default function Home() {
                     : "border-white/30 bg-black/20 text-white/80"
                 }`}
               >
-                Personality
+                Personality （˶ˆᗜˆ˵）
               </button>
             </div>
 
