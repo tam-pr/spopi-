@@ -1,0 +1,23 @@
+{
+  "name": "spopi",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @spopi/api & npm run dev -w @spopi/web",
+    "dev:api": "npm run dev -w @spopi/api",
+    "dev:web": "npm run dev -w @spopi/web",
+    "build": "npm run build -w @spopi/db && npm run build -w @spopi/api && npm run build -w @spopi/web",
+    "db:generate": "npm run db:generate -w @spopi/db",
+    "db:migrate": "npm run db:migrate -w @spopi/db",
+    "db:push": "npm run db:push -w @spopi/db",
+    "docker:up": "docker compose up --build",
+    "docker:down": "docker compose down",
+    "postinstall": "npm run db:generate"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
